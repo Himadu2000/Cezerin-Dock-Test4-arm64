@@ -17,4 +17,4 @@ RUN yarn
 
 EXPOSE 3000 3001
 
-CMD yarn build:store && yarn start
+CMD yarn start:server
