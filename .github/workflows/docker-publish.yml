@@ -20,7 +20,7 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
-  DOCKER_DEFAULT_PLATFORM: linux/arm64
+  # DOCKER_DEFAULT_PLATFORM: linux/arm64
 
 jobs:
   build:
