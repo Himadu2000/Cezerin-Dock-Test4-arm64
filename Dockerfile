@@ -1,4 +1,4 @@
-FROM node:21.7-alpine
+FROM --platform=linux/arm64 node:21.7-alpine
 
 RUN apk update && apk add git
 
